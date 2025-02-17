@@ -25,10 +25,10 @@ function App() {
   const portfolioItems = [
     {
       title: "Phase 2 Project",
-      description: "Team collaboration project showcasing full-stack development skills",
+      description: "Team collaboration project showcasing our chosen GCGOs",
       links: [
         { icon: <Video className="w-4 h-4" />, text: "Watch Demo", url: "#" },
-        { icon: <FileText className="w-4 h-4" />, text: "View Slides", url: "#" }
+        { icon: <FileText className="w-4 h-4" />, text: "View Slides", url: "https://docs.google.com/presentation/d/12i9yFJL05I-Xu4kpsPYVaxf2oPOFP6Seax-6AXNQSdQ/edit" }
       ]
     }
   ];
@@ -87,13 +87,13 @@ function App() {
                 Software Engineer | AI Enthusiast | Virtual Assistant Specialist
               </p>
               <div className="flex space-x-4">
-                <a href="https://www.google.com" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
+                <a href="https://www.linkedin.com/in/acquahea" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
+                <a href="https://github.com/Qwekue" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
+                <a href="mailto:adomanua@gmail.com" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
                   <Mail className="w-5 h-5" />
                 </a>
               </div>
