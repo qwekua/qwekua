@@ -249,7 +249,7 @@ function App() {
               <a href="https://github.com/Qwekue" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
                 <Github className="w-5 h-5" />
               </a>
-              <a href="adomanua@gmail.com" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
+              <a href="mailto:adomanua@gmail.com" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
                 <Mail className="w-5 h-5" />
               </a>
             </div>
