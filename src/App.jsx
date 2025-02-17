@@ -254,7 +254,7 @@ function App() {
               </a>
             </div>
             <div className="text-sm text-gray-400">
-              Copyright © John Doe 2024
+              Copyright © Enock Acquah Adomanu 2025
             </div>
           </div>
         </div>
