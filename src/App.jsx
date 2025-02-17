@@ -243,14 +243,14 @@ function App() {
           <div className="flex flex-col items-center space-y-4">
             <div className="text-2xl font-bold">Enock Acquah Adomanu</div>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
+              <a href="https://www.linkedin.com/in/acquahea" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
+              <a href="https://github.com/Qwekue" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
                 <Github className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
-                <Youtube className="w-5 h-5" />
+              <a href="adomanua@gmail.com" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
+                <Mail className="w-5 h-5" />
               </a>
             </div>
             <div className="text-sm text-gray-400">
