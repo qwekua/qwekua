@@ -27,7 +27,7 @@ function App() {
       title: "Phase 2 Project",
       description: "Team collaboration project showcasing our chosen GCGOs",
       links: [
-        { icon: <Video className="w-4 h-4" />, text: "Watch Demo", url: "#" },
+        { icon: <Video className="w-4 h-4" />, text: "Watch Demo", url: "https://youtu.be/NrTLhcXk7XQ?feature=shared" },
         { icon: <FileText className="w-4 h-4" />, text: "View Slides", url: "https://docs.google.com/presentation/d/12i9yFJL05I-Xu4kpsPYVaxf2oPOFP6Seax-6AXNQSdQ/edit" }
       ]
     }
