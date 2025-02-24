@@ -2,6 +2,11 @@ import React from 'react';
 import { Menu, X, Github, Linkedin, Youtube, FileText, Video, Mail } from 'lucide-react';
 import { useState } from 'react';
 import Image from '../src/assets/image.jpeg'
+import CertificateDisplay from './components/CertificateDisplay';
+import AICECert from './assets/va.png'
+import VACert from './assets/aice.png'
+import GIGStat from './assets/gigstat.png'
+
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,6 +38,25 @@ function App() {
     }
   ];
 
+  const certificateData = [
+    {
+      title: "ALX AI Essentials",
+      description: "Certification in artificial intelligence fundamentals and applications from ALX",
+      imageUrl: AICECert // Replace with your actual image path
+    },
+    {
+      title: "ALX Virtual Assistant",
+      description: "Professional certification in virtual assistant skills and technologies from ALX",
+      imageUrl: VACert // Replace with your actual image path
+    },
+    {
+      title: "ALX Gig-at-a-Startup",
+      description: "Professional certification in creating startup ideas and technologies from ALX",
+      imageUrl: GIGStat // Replace with your actual image path
+    }
+  ];
+
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0a192f] via-[#0a1930] to-[#0a192f] text-white">
       {/* Navigation */}
@@ -40,7 +64,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             <div className="text-xl font-bold">EAA</div>
-            
+
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center font-medium space-x-8">
               <a href="#about" className="text-gray-300 hover:text-white">About</a>
@@ -52,7 +76,7 @@ function App() {
             </div>
 
             {/* Mobile menu button */}
-            <button 
+            <button
               className="md:hidden text-white"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
@@ -99,7 +123,7 @@ function App() {
               </div>
             </div>
             <div className="md:w-1/2 relative">
-              <img 
+              <img
                 src={Image}
                 alt="Profile"
                 className="w-80 h-80 object-cover mx-auto rounded-lg"
@@ -142,8 +166,8 @@ function App() {
               </p>
             </div>
             <div className="relative">
-              <img 
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=500&fit=crop" 
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=500&fit=crop"
                 alt="Coding"
                 className="w-full max-w-md mx-auto rounded-lg"
               />
@@ -193,14 +217,24 @@ function App() {
         </div>
       </section>
 
+    {/* Certificates */}
+    <CertificateDisplay certificates={certificateData} />
+
       {/* Elevator Pitch Section */}
       <section id="elevator-pitch" className="py-20 bg-[#0c1e3b]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold mb-8 text-center">Elevator Pitch</h2>
-          <div className="bg-white/5 rounded-lg p-8 backdrop-blur-sm max-w-2xl mx-auto">
-            <p className="text-gray-300 text-center italic">
-              Coming soon! Check back later for my elevator pitch video.
-            </p>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold mb-8 text-center">Elevator Pitch</h2>
+            <div className="bg-white/5 rounded-lg p-8 backdrop-blur-sm max-w-2xl mx-auto">
+              <video
+                className="w-full rounded"
+                controls
+                autoPlay
+                muted
+                playsInline
+                src="https://drive.google.com/uc?export=download&id=1WRcrKTSf2tQCGuQ9y_nbE_Jjctm0ZO2F"
+              />
+            </div>
           </div>
         </div>
       </section>
