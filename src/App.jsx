@@ -6,6 +6,7 @@ import CertificateDisplay from './components/CertificateDisplay';
 import AICECert from './assets/va.png'
 import VACert from './assets/aice.png'
 import GIGStat from './assets/gigstat.png'
+import ElevatorPitchSection from './components/ElevatorPitchSection';
 
 
 function App() {
@@ -222,21 +223,7 @@ function App() {
 
       {/* Elevator Pitch Section */}
       <section id="elevator-pitch" className="py-20 bg-[#0c1e3b]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold mb-8 text-center">Elevator Pitch</h2>
-            <div className="bg-white/5 rounded-lg p-8 backdrop-blur-sm max-w-2xl mx-auto">
-              <video
-                className="w-full rounded"
-                controls
-                autoPlay
-                muted
-                playsInline
-                src="https://drive.google.com/uc?export=download&id=1WRcrKTSf2tQCGuQ9y_nbE_Jjctm0ZO2F"
-              />
-            </div>
-          </div>
-        </div>
+        <ElevatorPitchSection />
       </section>
 
       {/* Contact Section */}
